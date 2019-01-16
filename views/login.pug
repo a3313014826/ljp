@@ -1,0 +1,63 @@
+doctype transitional
+html(xmlns='http://www.w3.org/1999/xhtml')
+    head
+        meta(http-equiv='Content-Type', content='text/html; charset=gb2312')
+        title 登陆页面
+        link(href='/stylesheets/datouwang.css', rel='stylesheet', type='text/css')
+        link(href='/stylesheets/login.css', rel='stylesheet', type='text/css')
+    body
+        // 代码 开始
+        div(class='login')
+            h1 登录界面
+            form(action='/login' method='post')
+                div(class='loginT')
+                    span 用户名:
+                        input(type='text' id='userN' name='userName' pattern='^[a-zA-Z0-9_-]{4,16}$' oninvalid="setCustomValidity('请输入4~6用户名')")
+                        br
+                        br
+
+                    span 密&nbsp;&nbsp;&nbsp;码:
+                        input(type='password' id ='pwd' name='passWord' pattern='^[\\w_-]{6,16}$' oninvalid="setCustomValidity('请输入6~16位密码')")
+                    input(type='submit' value='登陆' id='btn')
+                    a(href="#")
+                        input(type='button' onclick="location.href='/sign'" value='注册' id='rst' )
+                    div(class = 'fsd') #{err}
+        .eevee
+            .body
+                .head
+                    .ears
+                        .ear
+                            .lobe
+                        .ear
+                            .lobe
+                    .face
+                        .eyes
+                            .eye
+                                .eyelid
+                            .eye
+                                .eyelid
+                        .nose
+                        .mouth
+                .chest
+                    .fur
+                        .patch
+                    .fur
+                        .patch
+                    .fur
+                        .patch
+                .legs
+                    .leg
+                        .inner-leg
+                    .leg
+                        .inner-leg
+                    .leg
+                        .inner-leg
+                    .leg
+                        .inner-leg
+                .tail
+                    .tail
+                        .tail
+                            .tail
+                                .tail
+                                    .tail.-end
+        // 代码 结束

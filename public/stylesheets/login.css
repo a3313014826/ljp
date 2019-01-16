@@ -1,0 +1,44 @@
+h1{
+    text-align: center;
+    color: chartreuse;
+}
+.login{
+    height: 275px;
+    width: 415px;
+    position: absolute;
+    top: 220px;
+    right: 370px;;
+    box-shadow: 10px 10px 5px #000000;
+    border-radius: 50px;
+    /*background-image: url(../images/p1.jpg);*/
+}
+.loginT{
+    height: 115px;
+    width: 265px;
+   /*color: white;*/
+    position:relative;
+    left: 77px;
+    top: 15px;
+}
+#userN{
+    position: relative;
+    left: 5px;
+}
+#pwd{
+    position: relative;
+    left: 7px;
+}
+#btn{
+    position: relative;
+    top: 44px;
+    left: -145px;
+}
+#rst{
+    position: relative;
+    left: 158px;
+    top: 20px;
+}
+.fsd{
+    color: red;
+    float: right;
+}

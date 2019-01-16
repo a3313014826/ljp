@@ -1,0 +1,177 @@
+doctype html
+html(lang='zh-cn')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    title 天津电力-首页
+    link(href='/stylesheets/base.css', rel='stylesheet')
+    link(href='/stylesheets/main.css', rel='stylesheet')
+    link(href='/stylesheets/index.css', rel='stylesheet')
+  body
+    #header
+      .clear.webPage
+        .logo.L.aElem
+          a(href='')
+        .nav.R
+          ul
+            li
+              a.on(href='/')
+                span 首页
+                | HOME
+            li
+              a(href='/about')
+                span 关于我们
+                | ABOUT US
+            li
+              a(href='/product')
+                span 企业产品
+                | PRODUCTS
+            li
+              a(href='/honor')
+                span 公司荣誉
+                | QUALIFICAION
+            li.nedLi
+              a(href='/contact')
+                span 联系我们
+                | CONTACT
+    // center S
+    #center.clear(style='padding-bottom:60px;')
+      .indAdv.clearfix
+        .indCom.clear
+          .indCon.webPage
+            .indBox.indBox1.L
+              .indNav.clear
+                .indTit.L
+                  | 关于我们
+                  span ABOUT US
+                a.indMore.R(href='') MORE
+              .indCent
+                a.centTit(href='')
+                  img(src='/images/slice/tp.jpg', width='200', height='81')
+                .centTxt  公司主要从事插接母线、电缆桥架、电气箱柜的设计、生产、销售、安装、技术咨询和技术服务等主营业务。专业生产低压母线槽输...
+            .indBox.indBox2.L
+              .indNav.clear
+                .indTit.L
+                  | 企业产品
+                  span ENTERPRISE PRODUCTS
+                a.indMore.R(href='') MORE
+              .slide
+                .slideA
+                  ul.ggBox
+                    li.ulIndm(style='z-index: 3; opacity: 4;')
+                      each text in info
+                        .ulindLi.L(style='padding-right:9px;')
+                            a(href='')
+                                img(src=text.picture  width='138', height='92')
+                                span #{text.words}
+                      //.ulindLi.L(style='padding-right:9px;')
+                      //  a(href='')
+                      //    img(src='/images/slice/p1.jpg', width='138', height='92')
+                      //    span cckx空气型母线槽
+                      //.ulindLi.L
+                      //  a(href='')
+                      //    img(src='/images/slice/p2.jpg', width='138', height='92')
+                      //    span ccbk直角型母线槽
+                    li.ulIndm
+                      .ulindLi.L(style='padding-right:9px;')
+                        a(href='')
+                          img(src='/images/slice/p3.jpg', width='138', height='92')
+                          span 2ckx空气型母线槽
+                      .ulindLi.L(style='padding-right:9px;')
+                        a(href='')
+                          img(src='/images/slice/p4.jpg', width='138', height='92')
+                          span nkbc空气型母线槽
+                      .ulindLi.L
+                        a(href='')
+                          img(src='/images/slice/tp2.jpg', width='138', height='92')
+                          span cfdk空气型母线槽
+                    li.ulIndm
+                      .ulindLi.L(style='padding-right:9px;')
+                        a(href='')
+                          img(src='/images/slice/tp3.jpg', width='138', height='92')
+                          span 4444cckx空气型母线槽
+                      .ulindLi.L(style='padding-right:9px;')
+                        a(href='')
+                          img(src='/images/slice/p5.jpg', width='138', height='92')
+                          span ckna空气型母线槽
+                      .ulindLi.L
+                        a(href='')
+                          img(src='/images/slice/p2.jpg', width='138', height='92')
+                          span cckx空气型母线槽
+                    li.ulIndm
+                      .ulindLi.L(style='padding-right:9px;')
+                        a(href='')
+                          img(src='/images/slice/p6.jpg', width='138', height='92')
+                          span 3333cckx空气型母线槽
+                      .ulindLi.L(style='padding-right:9px;')
+                        a(href='')
+                          img(src='/images/slice/tp2.jpg', width='138', height='92')
+                          span cckx空气型母线槽
+                      .ulindLi.L
+                        a(href='')
+                          img(src='/images/slice/tp3.jpg', width='138', height='92')
+                          span cckx空气型母线槽
+                .slideB.webPage
+                  .ggBtns.aElem
+                    a.ggOn(href='javascript:;')
+                    a(href='javascript:;')
+                    a(href='javascript:;')
+                    a(href='javascript:;')
+            .indBox.indBox3.L
+              .indNav.clear
+                .indTit.L
+                  | 公司视频
+                  span COMPANY VIDEO
+                a.indMore.R(href='') MORE
+              #player1.entVideo(data-url='/images/111.mp4')
+    // center E
+    // footer S
+    #footer.clear
+      .webPage.clear.footCom.text-center
+        .footNav.L.iElem
+          a.fnIco1(href='')
+            i
+            | 生成管理系统
+          span |
+          a.fnIco2(href='')
+            i
+            | 企业邮箱
+        span copyright 2014 KUNMING tian jing dian li OPERATION CO.,LTD    滇icp备10201004号-1
+        .footLink.R
+          .gzWx.L.padding-right-10.iElem
+            a(href='')
+              i
+              | 关注天健公司
+            .wxCom.backgroundElem
+          .padding-right-10.L 友情链接
+          .seleBox.L.iElem
+            span.dk_wrap.dk_wrap1.L
+              select.nojs(name='country-wrap')
+                option 美国雷神电力1
+                option 美国雷神电力2
+                option 美国雷神电力3
+                option 美国雷神电力1
+                option 美国雷神电力2
+                option 美国雷神电力3
+    // footer E
+    script(src='/javascripts/jquery-1.8.2.min.js')
+    script(src='/javascripts/base.js')
+    script(src='/javascripts/jquery.dropkick-min.js')
+    script(type='text/javascript', charset='utf-8', src='/javascripts/clappr.min.js')
+    script(type='text/javascript').
+        function player(elemID,musicUrl){
+            var playerEl = document.getElementById(elemID);
+            var player = new Clappr.Player({source: musicUrl});
+            player.attachTo(playerEl);
+        }
+        function playerSet(){
+            $(".entVideo").each(function(){
+                var thisID=$(this).attr("id");
+                var thisDataUrl=$(this).attr("data-url");
+                player(thisID,thisDataUrl);
+            });
+        }
+        $(function(){
+            playerSet()
+        })

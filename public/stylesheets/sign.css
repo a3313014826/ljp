@@ -1,0 +1,23 @@
+.divcss5{
+    position: absolute;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+    /* background: blue; */
+    width: 361px;
+    height: 460px;
+    padding: 0;
+    margin: 0;
+    left: 100px;
+    top: 70px;
+
+}
+.subMit{
+    border-radius: 5px;
+}
+.reSet{
+    border-radius: 5px;
+}
+body{
+    background: url("../images/p3.jpg");
+    background-size: cover;
+}
