@@ -92,3 +92,12 @@ input,select,textarea{ border:1px solid #E0E0E0;}
 
 .saveBtnOrg{ padding:5px 25px;color: #fff;background-color: #FF4001; border-radius: 3px;}
 
+.pid{
+    background-image: url(/images/bg2.jpg);
+    background-size: cover;
+    position: absolute;
+    height: 87px;
+    width: 211px;
+    left: 244px;
+    top: 0px;
+}

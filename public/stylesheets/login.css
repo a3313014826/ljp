@@ -1,6 +1,6 @@
 h1{
     text-align: center;
-    color: chartreuse;
+    color: #9D7442;
 }
 .login{
     height: 275px;
@@ -30,15 +30,23 @@ h1{
 }
 #btn{
     position: relative;
-    top: 44px;
-    left: -145px;
+    top: 30px;
+    left: 10px;
+    width: 40%;
 }
 #rst{
     position: relative;
-    left: 158px;
-    top: 20px;
+    left: 75px;
+    top: 30px;
+    width: 40%;
 }
 .fsd{
     color: red;
     float: right;
+}
+input{
+    border-radius: 7px;
+    border: none;
+    width: 80%;
+    height: 30px;
 }
