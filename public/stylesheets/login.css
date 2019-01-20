@@ -41,8 +41,11 @@ h1{
     width: 40%;
 }
 .fsd{
+    position: relative;
     color: red;
-    float: right;
+    /* float: right; */
+    bottom: 23px;
+    left: 115px;
 }
 input{
     border-radius: 7px;
